@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    color: #8d8d8d;
+    font-weight: 900;
+    font-size: 180%;
+}
+.title {
+ display: flex;
+ justify-content: center;
+}
+
+
+#nav1 > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1% 20%;
+}
+.nav1 {
+    color: azure;
+    background-image:url('Static.jpg');
+    list-style: none;
+    text-align: center;
+    margin: 1% 20%;
+    padding: 1% 2%;
+    font-size: 16px;
+    font-weight: 500;
+    width: 53%;
+    height: 24px;
+}
+.nav1:hover {
+    background-color: #8d8d8d;
+    background-image: url('Static.jpg');
+    color: white;
+    transition: 2s;
+    animation-name: Twitch;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes Twitch {
+    from{font-size:16px;
+    }
+    to{font-size: 24px;
+    }
+}
+
+
+.email {
+    color: #8d8d8d;
+    border-color: #252525;
+    margin: 2px 31%
+}
+input[type=text], input[type=submit] {
+    border: none;
+    padding: 0.5% 2%;
+    margin: 8px 0px;
+    background-color: #252525;
+    color: white;
+    font-weight: 450;
+    font-size: 16px;
+}
+
