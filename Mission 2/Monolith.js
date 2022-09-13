@@ -8,7 +8,6 @@ function changeColour() {
         currentColour++;
         document.body.style.background = colourArray[currentColour];
     }
-
 }
 
 
@@ -18,3 +17,9 @@ myDiv.addEventListener("mouseover",function(){
     myDiv.style.background = 'black';
     myDiv.style.color = 'white';
 })
+
+const resetButton = document.getElementById('reset');
+resetButton.addEventListener("click", function(){
+    document.body.style.background = 'black';
+})
+
